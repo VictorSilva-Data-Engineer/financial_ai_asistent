@@ -15,6 +15,7 @@ provider = "polygon"
 market = "stocks"
 
 
+
 PATH_PROJECT = os.path.join(os.getcwd())
 PATH_DATA = os.path.join(PATH_PROJECT,"data", provider)
 current_date = datetime.now().strftime("%Y-%m-%d_%H_%M_%S")
